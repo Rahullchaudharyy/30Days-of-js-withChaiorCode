@@ -118,7 +118,7 @@ let NUmber = 2;
 console.log(NUmber % 2 === 0 ? "Its Even Number" : "its Odd number");
 
 
-// Tried by gpt 
+// Just took help 
 let year = 2024;
 
 let isLeapYear;
