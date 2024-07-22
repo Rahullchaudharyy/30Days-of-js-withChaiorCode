@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="First-heading">
+    </h1>
+    <h1 class="Heading">Welcome To Js 30 .</h1>
+    
+<ul id="List-Items">
+ <li>1</li>
+ <li>2</li>
+
+
+</ul>
+
+<h1 id="Element-removal">I will delete...</h1>
+    <script>
+      let heading =  document.getElementById('First-heading')
+      heading.textContent = 'Hey its first element of the first div and its 1st task to complete ...'
+        document.querySelector('.Heading').style.backgroundColor = 'Green'
+
+        let div = document.createElement('div')
+        div.innerText = " it's new div that create by js "
+
+        document.body.appendChild(div)
+
+        let ul = document.querySelector('#List-Items')
+        let lis = document.createElement('li')
+
+        lis.innerText = '3'
+        ul.appendChild(lis)
+
+     let RemovalElement = document.querySelector('#Element-removal')
+
+     if(RemovalElement){
+        RemovalElement.remove();
+     }
+
+
+     if(ul&&ul.lastElementChild){
+        ul.lastElementChild.remove()
+     }
+
+//   heading.setAttribute('style')
+
+
+    </script>
+</body>
+</html>
