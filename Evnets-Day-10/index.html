@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="flex justify-center items-center">
+    <div class="h-auto w-auto gap-3 mt-[1vmin]  flex flex-col justify-center items-center">
+
+        <button id="BTN" class="bg-blue-400 p-[1vmin] text-white rounded-xl">Change Content</button>
+        <p class="Para">Current Content</p>
+
+          
+
+        <img style="display: block;" id="Photo-dbl" class="h-[10mvin] w-[60vmin] border-[2px] border-black" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="">
+         
+
+        <input class="border-black " type="text" id="Myinput" placeholder="Press and See the key.. ">
+        <input class="border-black " type="text" id="Myinput2" placeholder="Press and See the key..In the para ">
+        <p id="Para-Keyvalue"></p>
+
+        <form action="submit">
+
+            <input class="p-2 bg-blue-400 rounded-xl" placeholder="Name" type="text" name="Full-Nmae" id="Name-Input">
+            <input class="p-2 bg-green-400 rounded-xl" placeholder="Email" type="email" id="Email">
+            <input class="p-2 bg-yellow-400 rounded-xl" placeholder="Password" type="password" id="Password">
+
+            <button id="Sub-btn" class="p-1 bg-orange-400 rounded-xl" type="submit">Submit</button>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+        </form>
+
+        <select id="mySelect">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+          
+          <p id="display"></p>
+
+          <ul id="List">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+          </ul>
+
+          <ul id="Parent">
+            <li class="child"></li>
+            <li class="child"></li>
+
+          </ul>
+    </div>
+
+
+
+
+    <script src="Event.js"></script>
+</body>
+</html>
