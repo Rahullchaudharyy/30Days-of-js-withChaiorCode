@@ -184,7 +184,7 @@ fetchDataFromInvalidUrl();
   }
  }
 
- FetchApi('https://jsonplacehotlder.typicode.com/users')
+ FetchApi('https://jsonplacehotder.typicode.com/users')
 
 
 
